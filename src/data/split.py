@@ -1,7 +1,6 @@
 import math
 import random
 from typing import Dict, List, Tuple
-from sklearn.model_selection import train_test_split
 
 def split_data(data: List[str], weights: Tuple = (0.8, 0.2, 0.0), seed: int = 100) -> Dict:
     split = {}
